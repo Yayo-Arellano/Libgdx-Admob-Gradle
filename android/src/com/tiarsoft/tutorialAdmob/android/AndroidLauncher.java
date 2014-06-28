@@ -18,8 +18,8 @@ import com.tiarsoft.tutorialAdmob.MyNewGame;
 
 public class AndroidLauncher extends AndroidApplication implements AdHandler {
 
-	String BANNER_ID = "a150008a9a93220";
-	String INTERSTITIAL_ID = "a150008a9a93220";
+	String BANNER_ID = "xxxx";
+	String INTERSTITIAL_ID = "xxxxxx";
 
 	AdRequest requestAd;
 	AdView bannerAd;
@@ -70,7 +70,6 @@ public class AndroidLauncher extends AndroidApplication implements AdHandler {
 
 	@Override
 	public void showInterstitial() {
-
 		runOnUiThread(new Runnable() {
 			@Override
 			public void run() {
